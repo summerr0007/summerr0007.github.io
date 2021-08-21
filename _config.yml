@@ -31,9 +31,8 @@ github_username:  jekyll
 
 # Build settings
 # theme: minima
-yml highlighter-theme: monokai //you can change your syntax color scheme. 
-date_format: "%Y-%M-%D" //and date format.
-plugins:
+remote_theme: Huxpro/huxblog-boilerplate
+plugins: 
   - jekyll-feed
 
 # Exclude from processing.
