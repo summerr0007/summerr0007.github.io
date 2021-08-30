@@ -68,7 +68,7 @@ jekyll 要在本地跑需要這個套件
 
 ## 在本機跑 jekyll 站點
 
-``` bundle exec jekyll serve```
+```bundle exec jekyll serve```
 
 站點會跑在 4000 port
 
