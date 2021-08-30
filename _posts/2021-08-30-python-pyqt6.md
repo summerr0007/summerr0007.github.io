@@ -34,7 +34,7 @@ pip install PyQt6
 
 使用 Qt-designer 畫出介面後，將檔案副檔名存為 .ui 在這裡我命名為 newWindow.ui，接下來就要與程式做連結。
 
-## python pyqt6 顯示畫面 
+## python pyqt6 顯示畫面
 
 新建一個 python 檔案，並準備剛剛畫好的 .ui 檔，
 
