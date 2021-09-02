@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "python PyQt6 新建視窗"
+title:  "python3 PyQt6 新建視窗"
 date:   2021-08-30 12:52:10 +0800
 author: "summer"
-categories: python
+categories: python3
 header-style: text
 tags:
-  - python
+  - python3
   - PyQt6
 ---
 
