@@ -35,6 +35,7 @@ apt install gcc g++ make
 ```bash
 apt install libxt-dev
 apt install libx11-dev
+
 ```
 
 到解壓縮後的資料夾內執行 install 檔
@@ -251,6 +252,9 @@ for related posts.
 export PATH=$PATH:/home/aaa/Downloads/ns-allinone-2.35/bin:/home/aaa/Downloads/ns-allinone-2.35/tcl8.5.10/unix:/home/aaa/Downloads/ns-allinone-2.35/tk8.5.10/unix
 
 export LD_LIBRARY_PATH=/home/aaa/Downloads/ns-allinone-2.35/otcl-1.14:/home/aaa/Downloads/ns-allinone-2.35/lib
+
+export TCL_LIBRARY=/home/aaa/Downloads/ns-allinone-2.35/tcl8.5.10/library
+
 ```
 
 ```source ~/.bashrc``` 重整一下
