@@ -28,11 +28,11 @@ tags:
 
 * 啟用網卡
 
-```ip link X up```
+```ip link set X up```
 
 * 停用網卡
 
-```ip link X down```
+```ip link set X down```
 
 ### 查詢 ip 地址
 
