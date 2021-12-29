@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Yolov5 安裝與訓練"
-date:   2021-09-07 08:42:10 +0800
+date:   2021-12-29 23:59:59 +0800
 author: "summer"
 categories: Machine Learning
 header-style: text
