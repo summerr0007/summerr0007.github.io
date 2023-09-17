@@ -199,6 +199,33 @@ static char play_bits[] = {
 
 理論上 0xfc 加上強制轉型就好，但沒關西啦~~
 
+> 更新
+
+C++17 又出問題了
+
+```bash
+
+In file included from /usr/include/c++/11/bits/specfun.h:45,
+                 from /usr/include/c++/11/cmath:1935,
+                 from /usr/include/c++/11/math.h:36,
+                 from ./tools/random.h:40,
+                 from tcp/tcp-fack.cc:33:
+/usr/include/c++/11/bits/stl_algobase.h: In instantiation of ‘constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = TracedInt]’:
+tcp/tcp-fack.cc:87:15:   required from here
+/usr/include/c++/11/bits/stl_algobase.h:259:15: error: no match for ‘operator<’ (operand types are ‘const TracedInt’ and ‘const TracedInt’)
+  259 |       if (__a < __b)
+      |           ~~~~^~~~~
+/usr/include/c++/11/bits/stl_algobase.h:259:15: note: candidate: ‘operator<(int, int)’ (built-in)
+/usr/include/c++/11/bits/stl_algobase.h:259:15: note:   conversion of argument 2 would be ill-formed:
+/usr/include/c++/11/bits/stl_algobase.h:259:15: error: passing ‘const TracedInt’ as ‘this’ argument discards qualifiers [-fpermissive]
+
+```
+
+對 TracedInt 的重載加上 const
+
+
+
+
 再試一次``` ./install ```
 
 ```bash

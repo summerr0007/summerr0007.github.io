@@ -15,3 +15,14 @@ tags:
 ### DNS
 
 * [securitytrails](https://securitytrails.com/)
+
+## 病毒掃描
+
+* [virustotal](https://www.virustotal.com/gui/home/upload)
+* [scamalytics 检测IP欺诈](https://scamalytics.com/ip)
+
+## 密碼
+
+* [quipqiup](https://quipqiup.com/)
+
+* [vigenere-solver](https://www.guballa.de/vigenere-solver)
