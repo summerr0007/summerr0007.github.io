@@ -38,7 +38,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
-gems: [jekyll-mermaid]
+plugins: [jekyll-mermaid]
 
 
 
@@ -58,17 +58,7 @@ kramdown:
 
 
 
-# Disqus settings
-# disqus_username: hux
-
-# Netease settings
-# netease_comment: false
-
-
-
 # Analytics settings
-# Baidu Analytics 
-# ba_track_id: [your track id]
 
 # Google Analytics
 ga_track_id: 'G-VBJHBX7X83'            # Format: UA-xxxxxx-xx
@@ -92,12 +82,6 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
-
-
-
-# MathJax rendering for layout:page (e.g. post preview)
-page-mathjax: false
-
 
 
 # Friends
