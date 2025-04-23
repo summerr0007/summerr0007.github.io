@@ -7,7 +7,7 @@ categories: 那什麼鬼
 header-style: text
 tags:
   - 那什麼鬼
-  - linux
+  - Linux
   - netcat
   - 網路
 ---
