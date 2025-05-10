@@ -52,3 +52,5 @@ profiles/input/device.c:hidp_add_connection() Rejected connection from !bonded d
 需要依據順序執行
 
 好消息是我的鍵盤能用了，壞消息是我完全不知道為什麼能用
+
+有時藍牙連線太慢了，可以打開 /etc/bluetooth/main.conf 裡的 FastConnectable=true
